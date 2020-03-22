@@ -6,8 +6,8 @@ cards.push( `Thank you, ${names[i]}, for the wonderful ${gift} gift!` )
  return cards
 }	
  
-function countDown(integer) {
-  let i = 1; // the initialization moved OUTSIDE the body of the loop!
+function countDown() {
+  let i = 10; 
   while (i < gifts.length) {
     console.log(`Wrapped ${gifts[i]} and added a bow!`);
     i++; // the iteration moves INSIDE the body of the loop!
