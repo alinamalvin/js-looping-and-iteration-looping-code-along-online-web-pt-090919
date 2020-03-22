@@ -8,7 +8,7 @@ cards.push( `Thank you, ${names[i]}, for the wonderful ${gift} gift!` )
  
 function countDown() {
   let i = 10; 
-  while (i < gifts.length) {
+  while (i > 0) {
     console.log(`Wrapped ${gifts[i]} and added a bow!`);
     i++; // the iteration moves INSIDE the body of the loop!
   }
