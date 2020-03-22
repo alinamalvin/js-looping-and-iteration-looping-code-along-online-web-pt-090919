@@ -1,7 +1,9 @@
-function writeCards(namesArray,events) {
-  for (let i = 0; i < namesArray.length; i++) {
-    console.log(`Thank you,${names[i]}, for the wonderful ${events[i]} gift!`);
+cards = (["Ada", "Brendan", "Ali"], "birthday");
+function writeCards(cards) {
+  for (let i = 0; i < cards.length; i++) {
+    console.log(`Thank you, ${cards[[i]]}, for the wonderful ${cards[length - 1]} gift`)
   }
-  return names;
+  return cards;
 }
+writeCards(cards);
  
