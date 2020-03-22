@@ -11,6 +11,4 @@ function countDown() {
   while (i > 0) {
     console.log(i--);
   }
- 
-  return gifts;
 }
