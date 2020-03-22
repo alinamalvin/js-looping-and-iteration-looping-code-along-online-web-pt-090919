@@ -6,9 +6,9 @@ cards.push( `Thank you, ${names[i]}, for the wonderful ${gift} gift!` )
  return cards
 }	
  
-function countDown(10) {
-  let i = 10; 
+function countDown() {
+  let i = 10;
   while (i > 0) {
     console.log(i--);
   }
-}
+} 
