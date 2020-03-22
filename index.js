@@ -7,7 +7,7 @@ cards.push( `Thank you, ${names[i]}, for the wonderful ${gift} gift!` )
 }	
  
 function countDown() {
-  let i = 10; 
+  let i = 4; 
   while (i > 0) {
     console.log(i--);
   }
