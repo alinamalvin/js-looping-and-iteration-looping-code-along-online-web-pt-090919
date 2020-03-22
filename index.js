@@ -1,4 +1,4 @@
-const names=["Lisa", "Kaitlinn", "Ali"];
+const names=["Lisa", "Kaitlinn", "Jan"];
 const events=["Birthday"];
 
 function writeCards(names,events) {
