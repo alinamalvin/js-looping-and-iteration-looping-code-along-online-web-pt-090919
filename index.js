@@ -3,5 +3,5 @@ function writeCards( names, gift ) {
   for ( let i = 0; i < names.length; i++ ) {
 cards.push( `Thank you, ${names[i]}, for the wonderful ${gift} gift!` )
  }
-  return thankYouCards	  return cards
+ return cards
 }	
